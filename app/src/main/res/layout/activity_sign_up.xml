@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#DB7093"
+    android:background="#ffb6c1"
     tools:context=".SignUpActivity">
 
     <androidx.cardview.widget.CardView
@@ -93,7 +93,7 @@
                 android:padding="8dp"
                 android:layout_marginTop="10dp"
                 android:textSize="18sp"
-                android:textColor="@color/pink"/>
+                android:textColor="#ffb6c1"/>
 
 
 

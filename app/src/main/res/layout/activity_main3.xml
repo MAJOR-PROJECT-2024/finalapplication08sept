@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffb6c1"
+    tools:context=".MainActivity3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="363dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:text="Pregnancy Exercise"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/row1"
+                android:layout_width="413dp"
+                android:layout_height="148dp"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="46dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="352dp"
+                    android:layout_height="123dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="140dp"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="-2dp"
+                            android:src="@drawable/trianglepose" />
+
+                        <Button
+                            android:id="@+id/top1"
+                            android:layout_width="244dp"
+                            android:layout_height="111dp"
+                            android:layout_marginStart="135dp"
+                            android:layout_marginTop="8dp"
+                            android:backgroundTint="@color/white"
+                            android:text="Triangle Pose"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="382dp"
+                android:layout_height="118dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="15dp"
+                tools:layout_editor_absoluteY="194dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="122dp">
+
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="134dp"
+                        android:layout_height="110dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="6dp"
+                        android:src="@drawable/seatedbackbend" />
+
+                    <Button
+                        android:id="@+id/Top2"
+                        android:layout_width="245dp"
+                        android:layout_height="104dp"
+                        android:layout_marginStart="135dp"
+                        android:layout_marginTop="8dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Seated Back Bend"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="387dp"
+                android:layout_height="121dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="14dp"
+                tools:layout_editor_absoluteY="323dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="122dp">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="160dp"
+                        android:layout_height="122dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="-2dp"
+                        android:src="@drawable/warrior2" />
+
+                    <Button
+                        android:id="@+id/Top3"
+                        android:layout_width="232dp"
+                        android:layout_height="111dp"
+                        android:layout_marginStart="148dp"
+                        android:layout_marginTop="7dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Warrior2"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="387dp"
+                android:layout_height="119dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="14dp"
+                tools:layout_editor_absoluteY="454dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="122dp">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="150dp"
+                        android:layout_height="122dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="-2dp"
+                        android:src="@drawable/side_lying_position" />
+
+                    <Button
+                        android:id="@+id/Top4"
+                        android:layout_width="239dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="148dp"
+                        android:layout_marginTop="8dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Side Lying Position"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="385dp"
+                android:layout_height="119dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="584dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="161dp"
+                        android:layout_height="119dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="-2dp"
+                        android:src="@drawable/downdogpose" />
+
+                    <Button
+                        android:id="@+id/Top5"
+                        android:layout_width="236dp"
+                        android:layout_height="107dp"
+                        android:layout_marginStart="150dp"
+                        android:layout_marginTop="8dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Down-Dog-Pose"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="383dp"
+                android:layout_height="119dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="711dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="122dp">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="152dp"
+                        android:layout_height="122dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="-1dp"
+                        android:src="@drawable/butterflypose" />
+
+                    <Button
+                        android:id="@+id/top6"
+                        android:layout_width="231dp"
+                        android:layout_height="97dp"
+                        android:layout_marginStart="148dp"
+                        android:layout_marginTop="7dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Butterfly Pose"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

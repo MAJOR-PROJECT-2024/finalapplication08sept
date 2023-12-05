@@ -13,6 +13,27 @@
         android:theme="@style/Theme.NewApplication"
         tools:targetApi="31">
         <activity
+            android:name=".exrecise"
+            android:exported="false" />
+        <activity android:name=".bmiactivity" />
+        <activity android:name=".mainactivity2bmi" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".splash"
+            android:exported="false" />
+        <activity
+            android:name=".blogssih"
+            android:exported="false" />
+
+        <activity
+            android:name=".periodtrackeractivity"
+            android:exported="false" />
+        <activity
             android:name=".Dashboard"
             android:exported="false" />
         <activity
@@ -23,7 +44,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".SignUpActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,7 +57,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".SignUpActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
