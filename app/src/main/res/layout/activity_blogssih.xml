@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".blogssih">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="413dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="85dp"
+                android:text="BLOGS"
+                android:textColor="@color/black"
+                android:textSize="70sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.56"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.005" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="230dp"
+                android:layout_height="154dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.432"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.04"
+                app:srcCompat="@drawable/img_4" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="273dp"
+                android:layout_height="wrap_content"
+                android:text="Dr. Charis Chambers"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.088" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="367dp"
+                android:layout_height="32dp"
+                android:text="OBGYN, Owner/ Founder, Speaker, Businesswoman"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.104" />
+
+            <LinearLayout
+                android:layout_width="398dp"
+                android:layout_height="165dp"
+                android:background="@drawable/pink_border"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.448"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.125">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="346dp"
+                    android:layout_height="130dp"
+                    android:text=" To keep you and your baby healthy, it's important that you:Don’t smoke or drink alcoholEat healthy and get enough folic acidStay physically active."
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="346dp"
+                android:layout_height="173dp"
+                android:textColor="@color/black"
+                android:textSize="50sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.451"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.186"
+                app:srcCompat="@drawable/img" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="177dp"
+                android:layout_height="wrap_content"
+                android:text="Dr. Manu Lakshmi"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.537"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.231" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="503dp"
+                android:layout_height="wrap_content"
+                android:text="MB,Senior Consultant In PCOS, Fertility medicine and Key hole surgery."
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.617"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.243" />
+
+            <LinearLayout
+                android:layout_width="426dp"
+                android:layout_height="457dp"
+                android:background="@drawable/pink_border"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.43"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.301">
+
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="359dp"
+                    android:layout_height="419dp"
+                    android:text="The normal monthly menstrual bleeding occurs during the last 4 to 7 days of the monthly menstrual cycle. For most women, the menstrual cycle occurs every 28 days. However, the normal range can vary from 21 to 35 days.A patient is said to have irregular periods if it occurs less than 21 days or if it occurs more than 35 days, or if it occurs once in 60 or 90 days missing 2 or 3 periods in a row. Excess bleeding or very light bleeding are also signs of problems.The presence of bleeding in between the normal periods and bleeding after menopause are also signs of abnormal menses."
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="520dp"
+                android:layout_height="203dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.435"
+                app:srcCompat="@drawable/drchetna" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="185dp"
+                android:layout_height="45dp"
+                android:text="Dr. Chetna Jain"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.568"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.48" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="495dp"
+                android:layout_height="37dp"
+                android:text="MS -Obstetrics and Gynaecology, MBBS ,Obstetrician,Infertility Specialist"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.617"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.489" />
+
+            <LinearLayout
+                android:layout_width="417dp"
+                android:layout_height="309dp"
+                android:background="@drawable/pink_border"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.404"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.55">
+
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="366dp"
+                    android:layout_height="267dp"
+                    android:text="Eat well : Eating a healthy and nutritious meal is very important for painless periods.  Vitamin and mineral rich food , fresh fruits, magnesium rich food, calcium , green veggies are good for you when you are menstruating. Salt intake should be minimised because it causes bloating and minimise water retention. Try to avoid a heavy non veg diet, oily or spicy food that causes inflammation."
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="548dp"
+                android:layout_height="175dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.632"
+                app:srcCompat="@drawable/drankita" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="223dp"
+                android:layout_height="40dp"
+                android:text="Dr. Ankita Mandal"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.55"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.664" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="396dp"
+                android:layout_height="45dp"
+                android:text="Consultant Gynaecologist, Obstetrician, Normal Delivery Specialist, Laparoscopic Surgeon, Infertility Specialist."
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.455"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.678" />
+
+            <LinearLayout
+                android:layout_width="411dp"
+                android:layout_height="287dp"
+                android:background="@drawable/pink_border"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.388"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.755">
+
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="342dp"
+                    android:layout_height="234dp"
+                    android:text="Get moving: Exercise releases endorphins, natural painkillers that ease cramps and uplift your mood.Prioritize relaxation: Practice yoga, gentle stretching, and meditation to relieve tension and discomfort.Get enough sleep: Rest is vital to relax your body and mind and ensure a more comfortable period."
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="217dp"
+                android:layout_height="180dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.83"
+                app:srcCompat="@drawable/pratibha" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="222dp"
+                android:layout_height="40dp"
+                android:text="Dr. Pratibha Narayan "
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.521"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.856" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="402dp"
+                android:layout_height="45dp"
+                android:text=" MBBS, MS, DNB, MNAMS (Obstetrics and Gynecology)"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.652"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.87" />
+
+            <LinearLayout
+                android:layout_width="414dp"
+                android:layout_height="342dp"
+                android:background="@drawable/pink_border"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.389"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.988">
+
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="341dp"
+                    android:layout_height="292dp"
+                    android:text="PCOS can cause hormonal imbalances, irregular periods, excess androgen levels and cysts in the ovaries. Irregular periods, usually with a lack of ovulation, can make it difficult to become pregnant. PCOS is a leading cause of infertility.PCOS is a chronic condition and cannot be cured. However, some symptoms can be improved through lifestyle changes, medications and fertility treatments. "
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
